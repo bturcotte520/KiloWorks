@@ -3,99 +3,74 @@ import Image from "next/image";
 
 const slots: { time: string; speakers: { name: string; role: string; company: string; image: string; linkedin?: string }[] }[] = [
   {
-    time: "11:00 AM EST",
+    time: "11:00 AM EDT",
     speakers: [
-      {
-        name: "Scott Breitenother",
-        role: "CEO & Co-Founder",
-        company: "Kilo",
-        image: "/scott.jpeg",
-        linkedin: "https://www.linkedin.com/in/scottbreitenother/",
-      },
       {
         name: "Brian Turcotte",
-        role: "Developer Relations",
-        company: "Kilo",
+        role: "Developer Relations Engineer",
+        company: "Kilo Code",
         image: "/brian.jpeg",
-        linkedin: "https://www.linkedin.com/in/brian-turcotte/",
+        linkedin: "https://www.linkedin.com/in/brian-turcotte",
       },
     ],
   },
   {
-    time: "11:30 AM EST",
+    time: "11:30 AM EDT",
     speakers: [
       {
-        name: "Bojie Sun",
-        role: "",
-        company: "BytePlus",
-        image: "/bojie.jpeg",
-        linkedin: "https://www.linkedin.com/in/bojiesun/",
-      },
-    ],
-  },
-  {
-    time: "12:00 PM EST",
-    speakers: [
-      {
-        name: "Alex Yang",
-        role: "",
-        company: "Novita",
-        image: "/Alex.png",
-      },
-    ],
-  },
-  {
-    time: "12:30 PM EST",
-    speakers: [
-      {
-        name: "Elli Raynai",
-        role: "Designer/Developer",
+        name: "Dawn Choo",
+        role: "ex–Data Scientist at Meta & Amazon · 250K+ followers",
         company: "",
-        image: "/elli.jpeg",
-        linkedin: "https://www.linkedin.com/in/elliraynai/",
+        image: "/dawn-choo.jpg",
+        linkedin: "https://linkedin.com/in/data-dawn",
       },
     ],
   },
   {
-    time: "1:00 PM EST",
+    time: "12:00 PM EDT",
     speakers: [
       {
-        name: "Karen Serfaty",
-        role: "",
-        company: "AgentCard",
-        image: "/karen.jpeg",
-        linkedin: "https://www.linkedin.com/in/keyserfaty/?locale=en",
+        name: "Adi Singh",
+        role: "Co-founder (YC S25)",
+        company: "AgentMail",
+        image: "/adi-singh.jpg",
+        linkedin: "https://linkedin.com/in/adivirsingh13",
       },
     ],
   },
   {
-    time: "1:30 PM EST",
+    time: "12:30 PM EDT",
     speakers: [
       {
-        name: "Jonah Berman",
-        role: "FDE",
-        company: "Exa",
-        image: "/Jonah.jpeg",
-        linkedin: "https://www.linkedin.com/in/jonahcoleberman/",
+        name: "Alex Campos",
+        role: "Director of Sales Partnerships",
+        company: "FriendliAI",
+        image: "/alex-campos.jpg",
+        linkedin: "https://linkedin.com/in/alexander-campos",
       },
     ],
   },
   {
-    time: "2:00 PM EST",
+    time: "1:00 PM EDT",
     speakers: [
       {
-        name: "Brian Turcotte",
-        role: "Developer Relations",
-        company: "Kilo",
-        image: "/brian.jpeg",
-        linkedin: "https://www.linkedin.com/in/brian-turcotte/",
+        name: "Jonathon Murray",
+        role: "NYC General Manager",
+        company: "AI Tinkerers",
+        image: "/jonathon-murray.jpg",
+        linkedin: "https://linkedin.com/in/made-in-boston",
       },
+    ],
+  },
+  {
+    time: "1:30 PM EDT",
+    speakers: [
       {
-        name: "Brendan O'Leary",
-        role: "Developer Relations",
-        company: "Kilo",
-        image: "/brendan.jpeg",
-        linkedin: "https://www.linkedin.com/in/olearycrew/",
+        name: "Becca Campbell",
+        role: "Builder & Innovator",
+        company: "Parkade",
+        image: "/becca-campbell.jpg",
+        linkedin: "https://www.linkedin.com/in/campbellrebecca/",
       },
     ],
   },
