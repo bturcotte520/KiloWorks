@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CountdownTimer from "@/components/CountdownTimerClient";
 
 export default function Home() {
   const resources = [
@@ -99,6 +100,23 @@ export default function Home() {
                 </svg>
                 Join Discord
               </a>
+          </div>
+        </section>
+
+        {/* Countdown Timer */}
+        <section className="space-y-6">
+          <div className="space-y-1">
+            <h2 className="text-2xl font-semibold text-white">Upcoming Session</h2>
+            <p className="text-neutral-500 text-sm">Live sessions from top speakers in AI and developer tooling.</p>
+          </div>
+          <CountdownTimer />
+          <div className="flex justify-end">
+            <Link
+              href="/speakers"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 hover:text-violet-300 transition-colors"
+            >
+              View full schedule →
+            </Link>
           </div>
         </section>
 
