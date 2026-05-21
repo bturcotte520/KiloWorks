@@ -1,12 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-
-// Load client-only CountdownTimer without SSR to avoid hydration mismatches
-// with live time values.
-const CountdownTimer = dynamic(() => import("@/components/CountdownTimer"), {
-  ssr: false,
-});
+import CountdownTimer from "@/components/CountdownTimerClient";
 
 export default function Home() {
   const resources = [
