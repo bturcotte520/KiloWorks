@@ -24,6 +24,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 | `src/app/page.tsx` | Home page | ✅ Ready |
 | `src/app/layout.tsx` | Root layout | ✅ Ready |
 | `src/app/globals.css` | Global styles | ✅ Ready |
+| `src/app/winners/page.tsx` | Winners page at /winners | ✅ Ready |
 | `.kilocode/` | AI context & recipes | ✅ Ready |
 
 ## Current Focus
@@ -89,3 +90,4 @@ export async function GET() {
 | Initial | Template created with base setup |
 | 2026-03-31 | Landing page built: 3-step setup directions + 2 KiloClaw resource cards |
 | 2026-05-21 | Rebranded from KiloClaw to Kilo Code; replaced header button with Speakers link; updated CTA to download kilo.ai; replaced resources with Kilo for Slack + Kilo Cloud Agents; removed OpenClaw Starter Prompts page and Further Setup Directions section |
+| 2026-05-21 | Added /winners page with 3 randomly selected attendees each winning $50 Kilo Credits |
