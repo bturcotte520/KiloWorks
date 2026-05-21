@@ -84,7 +84,7 @@ export default function SpeakersPage() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-3">
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/kiloworks-logo.png"
+              src="/kilo-logo.jpg"
               alt="Kilo Code"
               width={120}
               height={40}

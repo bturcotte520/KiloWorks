@@ -25,7 +25,7 @@ export default function Home() {
       <header className="border-b border-neutral-800 bg-neutral-950/80 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-3">
           <Image
-            src="/kiloworks-logo.png"
+            src="/kilo-logo.jpg"
             alt="Kilo Code"
             width={200}
             height={60}
