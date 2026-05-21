@@ -7,18 +7,18 @@ export default function QRPage() {
 
       {/* URL */}
       <a
-        href="https://kilo.codes/cs2"
+        href="https://kilo.codes/kiloworks"
         target="_blank"
         rel="noopener noreferrer"
         className="text-4xl sm:text-5xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors tracking-tight text-center"
       >
-        kilo.codes/cs2
+        kilo.codes/kiloworks
       </a>
 
       {/* QR Code */}
       <Image
-        src="/cs2-qrcode.png"
-        alt="QR Code — kilo.codes/cs2"
+        src="/kiloworks-qrcode.png"
+        alt="QR Code — kilo.codes/kiloworks"
         width={480}
         height={480}
         loading="eager"

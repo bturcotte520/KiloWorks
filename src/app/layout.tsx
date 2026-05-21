@@ -8,8 +8,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KiloClaw Setup Buddy",
-  description: "KiloClaw Setup Buddy — get started with KiloClaw",
+  title: "Kilo Code Resource Guide",
+  description: "Kilo Code Resource Guide — get started with Kilo Code",
 };
 
 export default function RootLayout({

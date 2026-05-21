@@ -14,8 +14,8 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
-- [x] Landing page with setup directions (Docker, GitHub, Google) and KiloClaw resource links
-- [x] /prompts page with 9 numbered copy-paste KiloClaw prompts and per-prompt copy buttons
+- [x] Landing page with setup directions (Docker, GitHub, Google) and Kilo Code resource links
+- [x] /prompts page with 9 numbered copy-paste prompts and per-prompt copy buttons (removed — OpenClaw branding removed)
 
 ## Current Structure
 
@@ -88,3 +88,4 @@ export async function GET() {
 |------|---------|
 | Initial | Template created with base setup |
 | 2026-03-31 | Landing page built: 3-step setup directions + 2 KiloClaw resource cards |
+| 2026-05-21 | Rebranded from KiloClaw to Kilo Code; replaced header button with Speakers link; updated CTA to download kilo.ai; replaced resources with Kilo for Slack + Kilo Cloud Agents; removed OpenClaw Starter Prompts page and Further Setup Directions section |

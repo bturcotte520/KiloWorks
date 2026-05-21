@@ -84,8 +84,8 @@ export default function SpeakersPage() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-3">
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/kiloclaw.png"
-              alt="KiloClaw"
+              src="/kiloworks-logo.png"
+              alt="Kilo Code"
               width={120}
               height={40}
               className="h-8 w-auto object-contain"
@@ -188,7 +188,7 @@ export default function SpeakersPage() {
       {/* Footer */}
       <footer className="border-t border-neutral-800 mt-16">
         <div className="max-w-4xl mx-auto px-6 py-6 text-center text-xs text-neutral-600">
-          ClawShop — all links open in a new tab
+          Kilo Code — all links open in a new tab
         </div>
       </footer>
     </main>
