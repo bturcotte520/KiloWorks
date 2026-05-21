@@ -12,6 +12,12 @@ const slots: { time: string; speakers: { name: string; role: string; company: st
         image: "/brian.jpeg",
         linkedin: "https://www.linkedin.com/in/brian-turcotte",
       },
+      {
+        name: "Brendan O'Leary",
+        role: "The best DevRel Engineer on Earth",
+        company: "",
+        image: "https://raw.githubusercontent.com/b3ntobot/emails/main/images/speakers/speaker-new.jpg",
+      },
     ],
   },
   {
